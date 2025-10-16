@@ -13,30 +13,38 @@ library.add(fas, far, fab)
 
 export default function Footer() {
     return (
-        <footer className='h-20 bg-slate-950 text-slate-50 flex flex-col gap-y-2 justify-center items-center'>
-                <ul className='flex gap-x-2.5 sm:text-2xl'>
+        <footer className='h-20 bg-slate-950 text-slate-50 flex flex-col gap-y-2 justify-center items-center py-14 lg:py-20 px-4'>
+                <ul className='flex gap-x-2.5 w-full justify-between max-w-md text-3xl mb-4 lg:mb-7'>
                     <li>
-                        <a className='hover:text-red-500' href='https://www.facebook.com/share/16Mvh13AeA/?mibextid=wwXIfr' aria-label='View our facebook page'>
+                        <a 
+                            className='hover:text-red-500'
+                            href='https://www.facebook.com/share/16Mvh13AeA/?mibextid=wwXIfr' 
+                            aria-label='View our facebook page'>
                                 <FontAwesomeIcon icon="fa-brands fa-facebook" />
                         </a>
                     </li>
                     <li>
-                        <a className='hover:text-red-500' href='https://www.instagram.com/ash_nymd?igsh=MWtzbDAwOG9qOWdhZg%3D%3D&utm_source=qr aria' aria-label='View our instagram page'>
+                        <a className='hover:text-red-500' 
+                           href='https://www.instagram.com/ash_nymd?igsh=MWtzbDAwOG9qOWdhZg%3D%3D&utm_source=qr aria'
+                           aria-label='View our instagram page'>
                             <FontAwesomeIcon icon="fa-brands fa-square-instagram" />
                         </a>
                     </li>
                     <li>
-                        <a className='hover:text-red-500' href='https://x.com/ashley_nymd?s=21' aria-label='View our twitter page'>
+                        <a className='hover:text-red-500' href='https://x.com/ashley_nymd?s=21' 
+                           aria-label='View our twitter page'>
                             <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
                         </a>
                     </li>
                     <li>
-                        <a className='hover:text-red-500' href='https://www.linkedin.com/in/ashleynymd' aria-label='View our linkedin page'>
+                        <a className='hover:text-red-500' href='https://www.linkedin.com/in/ashleynymd' 
+                           aria-label='View our linkedin page'>
                             <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                         </a>
                     </li>
                     <li>
-                        <a className='hover:text-red-500' href='https://wa.me/message/V25G67CBYYTSI1' aria-label='View our whatsapp account'>
+                        <a className='hover:text-red-500' href='https://wa.me/message/V25G67CBYYTSI1'
+                            aria-label='View our whatsapp account'>
                             <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
                         </a>
                     </li>
