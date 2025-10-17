@@ -10,6 +10,6 @@ body {
   font-style: normal;
   font-size: small;
   @media screen and (min-width: 768px) {
-        font-size: 0.895rem;
+        font-size: 1.1rem;
   }
 }
