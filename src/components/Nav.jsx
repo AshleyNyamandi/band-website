@@ -31,17 +31,17 @@ export default function Nav() {
                 <div className={`w-full max-sm:absolute bg-stone-900 flex flex-col  flex-1 items-center transition-transform duration-500 ease-in z-10
                         ${ isMenuOpen ? '-translate-y-[0] top-14' : '-translate-y-[150%]'} sm:top-0 sm:translate-y-0 sm:w-auto`}>
                     <ul className='sm:flex gap-5 lg:gap-20 items-center justify-center'>
-                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300'>
-                            <Link to='home'>HOME</Link>
+                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300 cursor-pointer'>
+                            <Link onClick={toggleMobileMenu}  to='home'>HOME</Link>
                         </li>
-                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300'>
-                            <Link to='band'>BAND</Link>
+                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300 cursor-pointer'>
+                            <Link onClick={toggleMobileMenu} to='band'>BAND</Link>
                         </li>
-                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300'>
-                            <Link to='tour'>TOUR</Link>
+                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300 cursor-pointer'>
+                            <Link onClick={toggleMobileMenu} to='tour'>TOUR</Link>
                         </li>
-                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300'>
-                            <Link to='contact'>CONTACT</Link>
+                        <li className='mb-3 py-3 sm:pb-0 lg:text-2xl hover:text-red-500 transition-colors duration-300 cursor-pointer'>
+                            <Link onClick={toggleMobileMenu} to='contact'>CONTACT</Link>
                         </li>
                         {/* DOPDOWN MENU */}
                         <li className='pb-3 sm:pb-0 sm:relative group' tabIndex={0}>
@@ -49,17 +49,17 @@ export default function Nav() {
                                 </div>
                                 <ul className='max-h-0 overflow-hidden group-hover:max-h-96 group-focus:max-h-96 transition-[max-height,top] duration-700 ease-in-out flex flex-col text-start ml-8 sm:absolute bg-slate-950 top-15 group-hover:top-12 z-10'>
                                     <li 
-                                        className='py-1 px-3 hover:bg-slate-300 hover:text-slate-950 transition-colors duration-300 lg:text-lg'
+                                        className='py-1 px-3 hover:bg-slate-300 hover:text-slate-950 transition-colors duration-300 lg:text-lg cursor-pointer'
                                     >
                                         <a>Merchandise</a>
                                     </li>
                                     <li 
-                                        className='py-1 px-3 hover:bg-slate-300 hover:text-slate-950 transition-colors duration-300 lg:text-lg'
+                                        className='py-1 px-3 hover:bg-slate-300 hover:text-slate-950 transition-colors duration-300 lg:text-lg cursor-pointer'
                                     >
                                         <a>Extras</a>
                                     </li>
                                     <li 
-                                        className='py-1 px-3 hover:bg-slate-300 hover:text-slate-950 transition-colors duration-300 lg:text-lg'
+                                        className='py-1 px-3 hover:bg-slate-300 hover:text-slate-950 transition-colors duration-300 lg:text-lg cursor-pointer'
                                     >
                                         <a>Media</a>
                                     </li>       

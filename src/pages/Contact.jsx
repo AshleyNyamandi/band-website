@@ -12,11 +12,11 @@ library.add(fas, far, fab)
 
 export default function Contact() {
     return (
-        <section id='contact' className='sm:text-lg'>
+        <section id='contact' className='text-lg lg:text-2xl lg:font-light'>
             <div className='w-full max-w-6xl mx-auto    '>
                 <div className='text-center'>
                     <h3 className='pb-4 text-3xl font-bold'>Contact</h3>
-                    <span className='italic font-light block pb-4'>Fan? Drop a note!</span>
+                    <span className='italic font-extralight block pb-4'>Fan? Drop a note!</span>
                 </div>
                 <div className='sm:flex sm:justify-between items-center gap-5 mb-5'>
                     <div className='mb-3 p-3 rounded-sm grow-1 shadow-[0_0_20px_rgba(0,0,0,0.05)]'>
