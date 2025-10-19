@@ -75,6 +75,7 @@ export default function Contact() {
                             <input className='border-2 border-black focus:border-4 rounded-sm px-2 py-1 text-base'
                                 type='email'
                                 id='email'
+                                name='email'
                                 placeholder='johndoe@company.com'
                                 required
                             />
@@ -84,6 +85,7 @@ export default function Contact() {
                             <textarea 
                                 className='border-2 border-black focus:border-4 rounded-sm px-2 py-1 resize-none w-full h-24 text-base'
                                 id='message' 
+                                name='message'
                                 placeholder='What is on your mind?'
                                 required>
                             </textarea>
